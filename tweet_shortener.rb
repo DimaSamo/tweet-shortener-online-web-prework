@@ -18,4 +18,4 @@ def word_substituter(string)
 
 end
 
-dictionary
+puts dictionary
