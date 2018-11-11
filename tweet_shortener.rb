@@ -34,3 +34,7 @@ end
 def selective_tweet_shortener(string)
   string.length > 140 ? word_substituter(string) : string
 end
+
+def shortened_tweet_truncator(tweet)
+
+end
