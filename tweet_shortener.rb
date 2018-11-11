@@ -20,6 +20,7 @@ def word_substituter(string)
       string.tr!(key, value)
     end
   end
+  string
 end
 
 puts dictionary
