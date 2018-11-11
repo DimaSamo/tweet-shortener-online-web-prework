@@ -15,12 +15,7 @@ def dictionary
 end
 
 def word_substituter(string)
-  dictionary.each do |key, value|
-    if string.include?(key)
-      string.tr!(key, value)
-    end
-  end
-  string
+  words_array = string.split(" ")
 end
 
 puts dictionary
