@@ -15,7 +15,11 @@ def dictionary
 end
 
 def word_substituter(string)
-
+  dictionary.each do |key, value|
+    if string.include?("key")
+      string.tr!(key, value)
+    end
+  end
 end
 
 puts dictionary
