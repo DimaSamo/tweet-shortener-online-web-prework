@@ -17,7 +17,7 @@ end
 def word_substituter(string)
   words_array = string.split(" ")
   dictionary.each do |k, v|
-    if words_array.include?(k)
+    while words_array.include?(k)
       words_array[words_array.index(k)] = v
     end
   end
