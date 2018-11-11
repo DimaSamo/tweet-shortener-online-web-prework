@@ -17,7 +17,7 @@ end
 def word_substituter(string)
   dictionary.each do |key, value|
     if string.include?(key)
-      string = string.tr(key, value)
+      string.tr!(key, value)
     end
   end
   string
